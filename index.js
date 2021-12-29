@@ -33,6 +33,7 @@ function getResults() {
 
         if (selectResults[sequence]) {
           ++selectResults[sequence];
+          continue;
         }
 
         selectResults[sequence] = 2;
